@@ -94,12 +94,18 @@ body,html{
   }
 
  @media screen and (max-width: 380px) { 
-       .quote-container{
+     .quote{
+         margin-top: 3rem;
+         font-size: 2vh;
+     }  
+    .quote-container{
            height: 300px;
+           width: 300px;
            padding: 2rem;
         }
         .btn{
-            font-size: 1vh;
+            margin-top: 2rem;
+            font-size: 2vh;
             padding: 10px;
         }
     }
