@@ -48,7 +48,7 @@
 
  const btn = document.querySelector("button");
  const text =  document.getElementById("quoteid");
- const author = document.querySelector(".author");
+ const author = document.querySelector("authorid");
  
 
      
@@ -59,7 +59,6 @@
     let randomQuote = quotes[index].quote;
     let randomAuthor = quotes[index].author;
     
-    console.log(`Quote: ${randomQuote} | Author: ${randomAuthor}`);
     text.textContent = randomQuote;
     author.textContent = randomAuthor;
     }
