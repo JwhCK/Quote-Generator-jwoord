@@ -48,7 +48,7 @@
 
  const btn = document.querySelector("button");
  const text =  document.getElementById("quoteid");
- const author = document.querySelector("authorid");
+ const author = document.getElementById("authorid");
  
 
      
