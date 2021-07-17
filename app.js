@@ -46,22 +46,22 @@
 
    
 
- const btn = document.querySelector("button");
+ const btn = document.querySelector("#btn");
  const text =  document.getElementById("quoteid");
  const author = document.getElementById("authorid");
  
 
      
  
- function clickevent() {
-     
+  btn.addEventListener("click", ()=>{
+
     let index = Math.floor(Math.random() * quotes.length);
     let randomQuote = quotes[index].quote;
     let randomAuthor = quotes[index].author;
     
     text.textContent = randomQuote;
     author.textContent = randomAuthor;
-    }
+  });
 
 
     
