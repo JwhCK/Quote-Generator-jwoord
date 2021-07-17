@@ -37,16 +37,21 @@ body,html{
       justify-content: center;
       align-items: center;
       flex-direction: column;
-      padding: 4rem;
+      padding: 2rem;
       overflow: hidden;
+      text-align:center;
       }
 
     
   p,h2{
       color: white;
       font-family: Josefin Sans;
-      font-size: 3vh;
+      font-size: 3.5vh;
       opacity: 100%;
+      font-weight: bold;
+  }
+  p{
+      line-height: 4.5vh;
   }
  
  
